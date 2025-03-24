@@ -1,0 +1,180 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <div class="name-container">PORTFOLIO</div>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <h1>Hi, I'm <span style="color: #05ca0fe8; font-size:68px;">Sagar Madan</span></h1>
+        <p>An aspiring Python Full Stack Developer</p>
+        <a href="#contact" class="btn">Contact Me</a>
+      </div>
+      
+    </div>
+  </div>
+
+  <div id="about">
+    <div class="container">
+        <h1>About Me</h1>
+        <p>I'm <strong>Sagar Madan Chandragiri</strong>, a recent graduate with a Bachelor's degree in Artificial Intelligence and Data Science. I have a strong passion for Full Stack Development, and I'm always excited to explore new technologies and challenges. As a developer, I have honed my skills in Python, MySQL, HTML, CSS, JavaScript, React.js and Django, combining my academic learing and internship experience to create impactful solutions. I am now looking forward to applying my knowledge and skills in real-world projects.</p>
+        <div class="education">
+          <div class="col-1"><h2>Education</h2></div>
+          <div class="col-2">
+            <ul>
+              <li><span class="year">April 2024</span> <br>Artificial Intelligence and Data Science - Vasireddy Venkatadri Institute of Technology</li>
+              <li><span class="year">March 2020</span> <br>Class 12th - Sri Chaitanya Junior College</li>
+              <li><span class="year">March 2018</span> <br>Class 10th - St. Lukes School</li>
+            </ul>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div id="skills">
+    <h1>Skills</h1>
+    <div class="container">
+      
+      <div class="skillset1">
+        <div class="row">
+          <img src="images/python.png" alt="Python">
+          <p>Python</p>
+        </div>
+        <div class="row">
+          <img src="images/mysql.png" alt="MySQL">
+          <p>MySQL</p>
+        </div>
+        <div class="row">
+          <img src="images/html.png" alt="HTML">
+          <p>HTML</p>
+        </div>
+        <div class="row">
+          <img src="images/css.png" alt="CSS">
+          <p>CSS</p>
+        </div>
+      </div>
+      <div class="skillset2">
+        <div class="row">
+          <img src="images/javascript.png" alt="JavaScript">
+          <p>JavaScript</p>
+        </div>
+        <div class="row">
+          <img src="images/react.png" alt="React.js">
+          <p>React.js</p>
+        </div>
+        <div class="row">
+          <img src="images/django.png" alt="Django">
+          <p>Django</p>
+        </div>
+        <div class="row">
+          <img src="images/java.png" alt="Java">
+          <p>Java</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="projects">
+    <h1>Projects</h1>
+    <div class="container">
+      <div class="project1">
+        <div class="col1">
+          <img src="images/mri.png" alt="Project 1">
+        </div>
+        <div class="col2">
+          <h2>Brain Disease Classification From MRI Images Using CNN</h2>
+          <p><strong>Technologies:</strong> Python, HTML, CSS, Bootstrap</p>
+          <ul>
+            <li>1. Developed a CNN model in Python to classify MRI images as diseased or normal by
+              extracting patterns from training data.</li>
+            <li>2. Implemented an upload feature for new MRI images, with results based on majority
+              pattern matching for accurate disease detection.</li>
+            <li>3. Improved model accuracy and reduced computational workload by implementing
+              image preprocessing techniques, including resizing, normalization.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="project1">
+        <div class="col1">
+          <img src="images/loan.png" alt="Project 2">
+        </div>
+        <div class="col2">
+          <h2>DreamDev Loans Website Using React.js</h2>
+          <p><strong>Technologies:</strong> React.js</p>
+          <ul>
+            <li>1. Developed an interactive loans website using React.js, providing users with an
+              intuitive and seamless browsing experience.</li>
+            <li>2. Utilized CSS media queries to make the website fully responsive, ensuring a
+              consistent experience across various screen sizes and devices.</li>
+            <li>3. Used React Router to manage smooth, dynamic navigation between pages without
+              reloading the entire site.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact">
+    <h1>Contact Me</h1>
+      <div class="row">
+        <div class="contact-left">
+          <p><i class="fa-solid fa-paper-plane"></i> chandragirisagarmadan@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i> 8317585180</p>
+          <div class="social-icons">
+            <a href="https://github.com/SagarMadan"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/sagarmadan"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <a href="images/Sagar_Madan_Resume.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea rows="6" name="Message" placeholder="Your Message"></textarea>
+            <button class="btn btn3" type="submit">Submit</button>
+            
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    
+  </div>
+  <footer>
+      <p>&copy; 2025 Sagar Madan. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzIFOBI2NTo8zSxZ3chxfrpw3T5ocdUlXu39zU8L4V_W0dsqeOhUmq8QS1IJ_boWdB5/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById('msg')
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => 
+        {
+          msg.innerHTML="Message Sent Successfully"
+          setTimeout(() => {
+            msg.innerHTML=""
+          }, 2000);
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
